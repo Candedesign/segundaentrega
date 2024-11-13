@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+main {
+    background-color: gray
+}
+
+
+.titulo-contenedor {
+    font-size: 48px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+    justify-self: center;
+
+}
+
+
+#cardpokemon {
+    padding: 16px;
+}
+
+.card {
+    background-color: white;
+    padding: 32px;
+    display: flex;
+    flex-direction: row;
+    margin: 32px;
+
+}
+
+.texto-contenedor {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+.nombre-pokemon{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+}
+
+.tipo-pokemon {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+
+}
+
+.stats-contenedor {
+    margin-top: 5px;
+ 
+}
+
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 4px;
+
+}
+
+.agregar-boton {
+    background-color: red;
+    border-color:red;
+    border-radius: 16px;
+    font-size: 18px;
+    padding: 16px,24px;
+    margin: 24px;
+    color: white;
+    
+}
+
+.titulo-equipo-elegido  {
+    font-size: 48px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+    justify-self: center;
+
+}
